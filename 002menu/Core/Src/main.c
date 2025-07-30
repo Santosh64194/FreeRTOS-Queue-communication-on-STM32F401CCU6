@@ -3,6 +3,7 @@
   ******************************************************************************
   * @file           : main.c
   * @brief          : Main program body
+  * @Author		 	: Santosh SV
   ******************************************************************************
   * @attention
   *
@@ -96,7 +97,7 @@ void process_command(command_t *cmd);
 int extract_command(command_t *cmd);
 
 /*
- * led effect functions declaration
+ * LED Effect function declaration
  */
 
 void ledcallbackfunc(TimerHandle_t xTimer);
